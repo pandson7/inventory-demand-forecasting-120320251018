@@ -1,0 +1,26 @@
+{
+  "name": "inventory-forecasting-cdk",
+  "version": "1.0.0",
+  "description": "CDK infrastructure for inventory demand forecasting",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy --require-approval never"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cdk-lib": "^2.162.1",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "ts-node": "^10.9.2"
+  }
+}
